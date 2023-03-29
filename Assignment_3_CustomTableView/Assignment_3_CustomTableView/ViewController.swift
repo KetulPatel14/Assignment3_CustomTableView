@@ -24,6 +24,10 @@ class ViewController: UIViewController {
         
         myTableView.delegate = self
         myTableView.dataSource = self
+        
+        let imageCell = UINib(nibName: "ImageTableViewCell", bundle: nil)
+        myTableView.register(imageCell, forCellReuseIdentifier: "imageCell")
+        
     }
 
 
