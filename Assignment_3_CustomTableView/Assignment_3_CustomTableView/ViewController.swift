@@ -16,12 +16,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-        
         myTableView.delegate = self
         myTableView.dataSource = self
         
@@ -30,9 +24,9 @@ class ViewController: UIViewController {
         
         let segmentCell = UINib(nibName: "SegmentTableViewCell", bundle: nil)
         myTableView.register(segmentCell, forCellReuseIdentifier: "segmentCell")
-        
     }
 
+   
 
 }
 
