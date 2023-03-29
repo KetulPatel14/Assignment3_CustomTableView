@@ -28,8 +28,22 @@ class ViewController: UIViewController {
         let imageCell = UINib(nibName: "ImageTableViewCell", bundle: nil)
         myTableView.register(imageCell, forCellReuseIdentifier: "imageCell")
         
+        let segmentCell = UINib(nibName: "SegmentTableViewCell", bundle: nil)
+        myTableView.register(segmentCell, forCellReuseIdentifier: "segmentCell")
+        
     }
 
 
+}
+
+extension ViewController: UITableViewDelegate, UITableViewDataSource
+{
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return cellIdentifiers.count
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("Selected")
+    }
 }
 
