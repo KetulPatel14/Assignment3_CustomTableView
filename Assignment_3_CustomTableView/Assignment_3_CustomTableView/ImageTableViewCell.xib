@@ -19,26 +19,26 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="deV-Aa-cVT">
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="4eS-ax-hWA">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jane" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z3g-2y-kbY">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O8X-Rv-7n7">
                                 <rect key="frame" x="0.0" y="0.0" width="160" height="43.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="cBD-BT-zMD">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="IEO-rY-hK1">
                                 <rect key="frame" x="160" y="0.0" width="160" height="43.5"/>
                             </imageView>
                         </subviews>
                     </stackView>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="trailing" secondItem="deV-Aa-cVT" secondAttribute="trailing" id="9hW-7y-toy"/>
-                    <constraint firstAttribute="bottom" secondItem="deV-Aa-cVT" secondAttribute="bottom" id="BiI-JM-STf"/>
-                    <constraint firstItem="deV-Aa-cVT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="IvP-Ju-Rzt"/>
-                    <constraint firstItem="deV-Aa-cVT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="uZm-wI-18f"/>
+                    <constraint firstAttribute="bottom" secondItem="4eS-ax-hWA" secondAttribute="bottom" id="7kr-ei-S3Q"/>
+                    <constraint firstAttribute="trailing" secondItem="4eS-ax-hWA" secondAttribute="trailing" id="GEi-jd-iYe"/>
+                    <constraint firstItem="4eS-ax-hWA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="enp-Cu-PWp"/>
+                    <constraint firstItem="4eS-ax-hWA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="s1P-eP-HlR"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>

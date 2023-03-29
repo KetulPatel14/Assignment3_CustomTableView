@@ -19,17 +19,20 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="811-8g-zQ9">
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="JSS-vi-Ikp">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                         <subviews>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="XPt-aL-HGi">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="mbk-c5-iBf">
                                 <rect key="frame" x="0.0" y="0.0" width="250.5" height="44.5"/>
                                 <segments>
                                     <segment title="First"/>
                                     <segment title="Second"/>
                                 </segments>
+                                <connections>
+                                    <action selector="segmentChange:" destination="KGk-i7-Jjw" eventType="valueChanged" id="hWX-MJ-fj7"/>
+                                </connections>
                             </segmentedControl>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UVI-fu-d6h">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gp9-zF-dpC">
                                 <rect key="frame" x="250.5" y="0.0" width="69.5" height="43.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -39,13 +42,17 @@
                     </stackView>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="bottom" secondItem="811-8g-zQ9" secondAttribute="bottom" id="8Qe-bE-Mvv"/>
-                    <constraint firstAttribute="trailing" secondItem="811-8g-zQ9" secondAttribute="trailing" id="ed1-Zf-l8E"/>
-                    <constraint firstItem="811-8g-zQ9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="hAV-Lr-dE1"/>
-                    <constraint firstItem="811-8g-zQ9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="tHx-PH-5aE"/>
+                    <constraint firstItem="JSS-vi-Ikp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="6QH-s5-nyB"/>
+                    <constraint firstAttribute="bottom" secondItem="JSS-vi-Ikp" secondAttribute="bottom" id="BoY-yg-lMh"/>
+                    <constraint firstItem="JSS-vi-Ikp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="E3M-VC-Jsm"/>
+                    <constraint firstAttribute="trailing" secondItem="JSS-vi-Ikp" secondAttribute="trailing" id="uvZ-QP-CEk"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="mySegment" destination="mbk-c5-iBf" id="mX7-I5-pVB"/>
+                <outlet property="segmentResult" destination="gp9-zF-dpC" id="dGo-9r-pRh"/>
+            </connections>
         </tableViewCell>
     </objects>
 </document>
