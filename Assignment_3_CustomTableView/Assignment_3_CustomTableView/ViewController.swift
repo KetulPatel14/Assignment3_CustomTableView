@@ -43,7 +43,16 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("Selected")
+        print ("Selected")
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = myTableView.dequeueReusableCell(withIdentifier: cellIdentifiers[indexPath.row], for: indexPath)
+        return cell
+        
+    }
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 50
     }
 }
 
