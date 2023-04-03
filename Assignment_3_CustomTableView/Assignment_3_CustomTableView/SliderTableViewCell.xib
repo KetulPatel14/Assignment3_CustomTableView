@@ -19,14 +19,17 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="0xr-nB-aI0">
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="0xr-nB-aI0">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                         <subviews>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="7tw-5t-34d">
-                                <rect key="frame" x="-2" y="0.0" width="156.5" height="44.5"/>
+                                <rect key="frame" x="-2" y="7" width="271" height="31"/>
+                                <connections>
+                                    <action selector="sliderControl:" destination="KGk-i7-Jjw" eventType="valueChanged" id="b3X-i0-36G"/>
+                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v22-7c-HDw">
-                                <rect key="frame" x="167.5" y="0.0" width="152.5" height="43.5"/>
+                                <rect key="frame" x="282" y="11.5" width="38" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -42,6 +45,10 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="mySlider" destination="7tw-5t-34d" id="Fpk-0m-gR7"/>
+                <outlet property="sliderValue" destination="v22-7c-HDw" id="sYo-GP-J94"/>
+            </connections>
         </tableViewCell>
     </objects>
 </document>
