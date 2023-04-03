@@ -19,6 +19,8 @@
 		4161FC2329D4AFE000A3C3DF /* SegmentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4161FC2129D4AFE000A3C3DF /* SegmentTableViewCell.xib */; };
 		41C4E25229DB27C000CC55DF /* ProgessTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C4E25029DB27C000CC55DF /* ProgessTableViewCell.swift */; };
 		41C4E25329DB27C000CC55DF /* ProgessTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41C4E25129DB27C000CC55DF /* ProgessTableViewCell.xib */; };
+		41C4E25629DB2D9F00CC55DF /* SliderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C4E25429DB2D9F00CC55DF /* SliderTableViewCell.swift */; };
+		41C4E25729DB2D9F00CC55DF /* SliderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41C4E25529DB2D9F00CC55DF /* SliderTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		4161FC2129D4AFE000A3C3DF /* SegmentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SegmentTableViewCell.xib; sourceTree = "<group>"; };
 		41C4E25029DB27C000CC55DF /* ProgessTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgessTableViewCell.swift; sourceTree = "<group>"; };
 		41C4E25129DB27C000CC55DF /* ProgessTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProgessTableViewCell.xib; sourceTree = "<group>"; };
+		41C4E25429DB2D9F00CC55DF /* SliderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderTableViewCell.swift; sourceTree = "<group>"; };
+		41C4E25529DB2D9F00CC55DF /* SliderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SliderTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 				4161FC2129D4AFE000A3C3DF /* SegmentTableViewCell.xib */,
 				41C4E25029DB27C000CC55DF /* ProgessTableViewCell.swift */,
 				41C4E25129DB27C000CC55DF /* ProgessTableViewCell.xib */,
+				41C4E25429DB2D9F00CC55DF /* SliderTableViewCell.swift */,
+				41C4E25529DB2D9F00CC55DF /* SliderTableViewCell.xib */,
 			);
 			path = Assignment_3_CustomTableView;
 			sourceTree = "<group>";
@@ -201,6 +207,7 @@
 				4161FBFC29D49F5D00A3C3DF /* Assets.xcassets in Resources */,
 				4161FBFA29D49F5B00A3C3DF /* Main.storyboard in Resources */,
 				4161FC2329D4AFE000A3C3DF /* SegmentTableViewCell.xib in Resources */,
+				41C4E25729DB2D9F00CC55DF /* SliderTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +229,7 @@
 				41C4E25229DB27C000CC55DF /* ProgessTableViewCell.swift in Sources */,
 				4161FBF729D49F5B00A3C3DF /* ViewController.swift in Sources */,
 				4161FBF529D49F5B00A3C3DF /* AppDelegate.swift in Sources */,
+				41C4E25629DB2D9F00CC55DF /* SliderTableViewCell.swift in Sources */,
 				4161FC2229D4AFE000A3C3DF /* SegmentTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
