@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var myTableView: UITableView!
     
-    var cellIdentifiers: [String] = ["courseCodeCell", "imageCell", "segmentCell", "progressCell", "sliderCell", "stepperCell", "textCell"]
+    var cellIdentifiers: [String] = ["courseCodeCell", "imageCell", "segmentCell", "progressCell", "sliderCell", "stepperCell", "switchCell", "textCell"]
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -36,6 +36,9 @@ class ViewController: UIViewController {
         
         let stepperCell = UINib(nibName: "StepperTableViewCell", bundle: nil)
         myTableView.register(stepperCell, forCellReuseIdentifier: "stepperCell")
+        
+        let switchCell = UINib(nibName: "SwitchTableViewCell", bundle: nil)
+        myTableView.register(switchCell, forCellReuseIdentifier: "switchCell")
         
         let textCell = UINib(nibName: "TextTableViewCell", bundle: nil)
         myTableView.register(textCell, forCellReuseIdentifier: "textCell")

@@ -11,7 +11,9 @@ import UIKit
 class SwitchTableViewCell: UITableViewCell {
 
     @IBOutlet weak var mySwitch: UILabel!
-    @IBAction func switchControl(_ sender: Any) {
+    @IBAction func switchControl(_ sender: UISwitch) {
+        
+        mySwitch.text = ""
         
     }
     override func awakeFromNib() {
