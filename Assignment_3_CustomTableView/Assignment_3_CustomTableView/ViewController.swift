@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var myTableView: UITableView!
     
-    var cellIdentifiers: [String] = ["imageCell", "segmentCell"]
+    var cellIdentifiers: [String] = ["imageCell", "segmentCell", "progressCell"]
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -24,6 +24,9 @@ class ViewController: UIViewController {
         
         let segmentCell = UINib(nibName: "SegmentTableViewCell", bundle: nil)
         myTableView.register(segmentCell, forCellReuseIdentifier: "segmentCell")
+        
+        let progressCell = UINib(nibName: "ProgessTableViewCell", bundle: nil)
+        myTableView.register(progressCell, forCellReuseIdentifier: "progressCell")
     }
 
    
