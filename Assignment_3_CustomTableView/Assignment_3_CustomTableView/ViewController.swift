@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var myTableView: UITableView!
     
-    var cellIdentifiers: [String] = ["imageCell", "segmentCell", "progressCell", "sliderCell"]
+    var cellIdentifiers: [String] = ["imageCell", "segmentCell", "progressCell", "sliderCell", "stepperCell"]
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -30,6 +30,9 @@ class ViewController: UIViewController {
         
         let sliderCell = UINib(nibName: "SliderTableViewCell", bundle: nil)
         myTableView.register(sliderCell, forCellReuseIdentifier: "sliderCell")
+        
+        let stepperCell = UINib(nibName: "StepperTableViewCell", bundle: nil)
+        myTableView.register(stepperCell, forCellReuseIdentifier: "stepperCell")
     }
 
    
