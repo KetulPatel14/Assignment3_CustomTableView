@@ -1,5 +1,5 @@
 //
-//  SwitchTableViewCell.swift
+//  CourseCodeTableViewCell.swift
 //  Assignment_3_CustomTableView
 //
 //  Created by Canadore Student on 2023-04-03.
@@ -8,12 +8,8 @@
 
 import UIKit
 
-class SwitchTableViewCell: UITableViewCell {
+class CourseCodeTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var mySwitch: UILabel!
-    @IBAction func switchControl(_ sender: Any) {
-        
-    }
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

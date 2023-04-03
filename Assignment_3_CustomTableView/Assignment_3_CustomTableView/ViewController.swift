@@ -12,12 +12,15 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var myTableView: UITableView!
     
-    var cellIdentifiers: [String] = ["imageCell", "segmentCell", "progressCell", "sliderCell", "stepperCell"]
+    var cellIdentifiers: [String] = ["courseCodeCell", "imageCell", "segmentCell", "progressCell", "sliderCell", "stepperCell"]
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         myTableView.delegate = self
         myTableView.dataSource = self
+        
+        let courseCodeCell = UINib(nibName: "CourseCodeTableViewCell", bundle: nil)
+        myTableView.register(courseCodeCell, forCellReuseIdentifier: "courseCodeCell")
         
         let imageCell = UINib(nibName: "ImageTableViewCell", bundle: nil)
         myTableView.register(imageCell, forCellReuseIdentifier: "imageCell")

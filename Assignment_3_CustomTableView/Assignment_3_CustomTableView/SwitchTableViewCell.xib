@@ -24,6 +24,9 @@
                         <subviews>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pkm-2m-MLh">
                                 <rect key="frame" x="0.0" y="6.5" width="51" height="31"/>
+                                <connections>
+                                    <action selector="switchControl:" destination="KGk-i7-Jjw" eventType="valueChanged" id="haR-uc-gYC"/>
+                                </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ON" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hSQ-kX-Qcu">
                                 <rect key="frame" x="64" y="11.5" width="256" height="20.5"/>
@@ -42,6 +45,9 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="mySwitch" destination="hSQ-kX-Qcu" id="DM0-4b-M2v"/>
+            </connections>
         </tableViewCell>
     </objects>
 </document>
