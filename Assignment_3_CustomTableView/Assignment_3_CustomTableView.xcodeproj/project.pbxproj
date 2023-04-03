@@ -27,6 +27,8 @@
 		41C4E25F29DB35F200CC55DF /* SwitchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41C4E25D29DB35F200CC55DF /* SwitchTableViewCell.xib */; };
 		41C4E26229DB383800CC55DF /* CourseCodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C4E26029DB383800CC55DF /* CourseCodeTableViewCell.swift */; };
 		41C4E26329DB383800CC55DF /* CourseCodeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41C4E26129DB383800CC55DF /* CourseCodeTableViewCell.xib */; };
+		41C4E26629DB39BC00CC55DF /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C4E26429DB39BC00CC55DF /* TextTableViewCell.swift */; };
+		41C4E26729DB39BC00CC55DF /* TextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41C4E26529DB39BC00CC55DF /* TextTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,8 @@
 		41C4E25D29DB35F200CC55DF /* SwitchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchTableViewCell.xib; sourceTree = "<group>"; };
 		41C4E26029DB383800CC55DF /* CourseCodeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCodeTableViewCell.swift; sourceTree = "<group>"; };
 		41C4E26129DB383800CC55DF /* CourseCodeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseCodeTableViewCell.xib; sourceTree = "<group>"; };
+		41C4E26429DB39BC00CC55DF /* TextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
+		41C4E26529DB39BC00CC55DF /* TextTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,8 @@
 				41C4E25D29DB35F200CC55DF /* SwitchTableViewCell.xib */,
 				41C4E26029DB383800CC55DF /* CourseCodeTableViewCell.swift */,
 				41C4E26129DB383800CC55DF /* CourseCodeTableViewCell.xib */,
+				41C4E26429DB39BC00CC55DF /* TextTableViewCell.swift */,
+				41C4E26529DB39BC00CC55DF /* TextTableViewCell.xib */,
 			);
 			path = Assignment_3_CustomTableView;
 			sourceTree = "<group>";
@@ -222,6 +228,7 @@
 				4161FBFF29D49F5D00A3C3DF /* LaunchScreen.storyboard in Resources */,
 				41C4E25329DB27C000CC55DF /* ProgessTableViewCell.xib in Resources */,
 				4161FC1F29D4AFC900A3C3DF /* ImageTableViewCell.xib in Resources */,
+				41C4E26729DB39BC00CC55DF /* TextTableViewCell.xib in Resources */,
 				4161FBFC29D49F5D00A3C3DF /* Assets.xcassets in Resources */,
 				4161FBFA29D49F5B00A3C3DF /* Main.storyboard in Resources */,
 				41C4E26329DB383800CC55DF /* CourseCodeTableViewCell.xib in Resources */,
@@ -250,6 +257,7 @@
 				41C4E26229DB383800CC55DF /* CourseCodeTableViewCell.swift in Sources */,
 				41C4E25E29DB35F200CC55DF /* SwitchTableViewCell.swift in Sources */,
 				4161FC1E29D4AFC900A3C3DF /* ImageTableViewCell.swift in Sources */,
+				41C4E26629DB39BC00CC55DF /* TextTableViewCell.swift in Sources */,
 				41C4E25229DB27C000CC55DF /* ProgessTableViewCell.swift in Sources */,
 				4161FBF729D49F5B00A3C3DF /* ViewController.swift in Sources */,
 				4161FBF529D49F5B00A3C3DF /* AppDelegate.swift in Sources */,
