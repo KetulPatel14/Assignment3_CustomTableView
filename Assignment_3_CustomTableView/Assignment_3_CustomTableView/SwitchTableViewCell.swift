@@ -13,7 +13,11 @@ class SwitchTableViewCell: UITableViewCell {
     @IBOutlet weak var mySwitch: UILabel!
     @IBAction func switchControl(_ sender: UISwitch) {
         
-        mySwitch.text = ""
+        if(sender.isOn == true){
+            mySwitch.text  = "ON"
+        }else{
+            mySwitch.text = "OFF"
+        }
         
     }
     override func awakeFromNib() {
